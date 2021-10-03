@@ -6,7 +6,7 @@
 /*   By: jalcauza <jalcauza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/27 18:09:18 by jalcauza          #+#    #+#             */
-/*   Updated: 2021/10/03 16:44:34 by jalcauza         ###   ########.fr       */
+/*   Updated: 2021/10/03 17:21:32 by jalcauza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_auxi_printf(const char *str_char, va_list args, unsigned int *counter)
 {
-	int	result_c;
+	int	result_c; 
 
 	if (*str_char == 'c')
 	{
